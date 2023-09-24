@@ -9,7 +9,7 @@ import { MsalService } from '@azure/msal-angular';
 
 export class HeaderComponent implements OnInit {
   loginDisplay: Boolean = false;
-  userName: any = "Undefined"
+  userName: any = ""
 
   constructor(private msalService: MsalService) { }
 
